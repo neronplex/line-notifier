@@ -295,7 +295,7 @@ class Notify
      *
      * @return bool
      */
-    public function send()
+    public function send(): bool
     {
         $this->beforeSend();
 

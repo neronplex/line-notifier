@@ -9,7 +9,7 @@ use LogicException;
  *
  * @author    暖簾 <admin@neronplex.info>
  * @copyright Copyright (c) 2017 暖簾
- * @link      https://github.com/neronplex/cake-orm-enabler
+ * @link      https://github.com/neronplex/line-notifier
  * @license   http://www.apache.org/licenses/LICENSE-2.0 Apache License, Version 2.0
  * @package   Neronplex\LineNotifier
  * @since     0.0.1

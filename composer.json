@@ -1,0 +1,32 @@
+{
+  "name": "neronplex/line-notifier",
+  "description": "LINE Notify API client",
+  "type": "library",
+  "keywords": ["line"],
+  "homepage": "https://github.com/neronplex/line-notifier",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "暖簾",
+      "email": "admin@neronplex.info",
+      "homepage": "https://www.neronplex.jp/"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "Neronplex\\LineNotifier\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Neronplex\\LineNotifier\\Test\\": "tests"
+    }
+  }
+}
